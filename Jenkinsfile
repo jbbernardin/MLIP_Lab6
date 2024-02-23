@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                # sudo init
+                sudo init
 
                 # TODO Complete the command to run pytest
                 sudo run -n env pytest test_utility.py
