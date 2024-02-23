@@ -21,8 +21,8 @@ pipeline {
                 # TODO Complete the command to run pytest
                 sudo /home/jbbernardin/Documents/GitHub/MLIP_Lab6 run -n env pytest test_utility.py
 
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                # echo 'pytest not runned'
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
